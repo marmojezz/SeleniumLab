@@ -46,8 +46,12 @@ This session contains all the information to setup your test enviroment with sel
   * The First Project is Test Suite
   * Each Java class file is a Test Case (It can be replaced with a JUnit Class.)
 5. Selenium jars download
+  * Download Selenium Client accessing the https://www.seleniumhq.org/download/ for Java.
 6. Configure Selenium jars in project build path
+  * Click righ in the Project folder and access the properties
+  * Navigate to Libraries, click Add External JARS and add all jars present in the Selenium fonder
 7. Choose browser to run
+  * The user should download the correc driver to deal with the choosen browser under the session "Third Party Drivers, Bindings, and Plugins" from the same link https://www.seleniumhq.org/download/. (I have choose the chrome)
 8. Create Driver object based on brower choosen
 9. Set System property of the browser
 10. Run the "Hello World!" program
