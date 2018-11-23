@@ -24,7 +24,7 @@ During an interview, 3 exercicies were given to be solved. Basicaly to create au
 ## Installation Guide
 This session contains all the information to setup your test enviroment with selenium manually.
 
-### Selenium for Java
+### Selenium for Java (Win)
 
 1. Java Installation
 1.1. Open your browser and access https://www.oracle.com/technetwork/pt/java/javase/downloads/index.html
@@ -41,7 +41,10 @@ This session contains all the information to setup your test enviroment with sel
 2.6 Now, verify if the path %JAVA_HOME%\bin is included in the path system variable. 
 2.7 If not, add it.
 3. Eclipse Installation
+   * Download it at https://www.eclipse.org/downloads
 4. Create new Eclipse Project
+  * The First Project is Test Suite
+  * Each Java class file is a Test Case (It can be replaced with a JUnit Class.)
 5. Selenium jars download
 6. Configure Selenium jars in project build path
 7. Choose browser to run
